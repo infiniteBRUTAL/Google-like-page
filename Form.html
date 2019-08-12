@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="UTF-08">
+    <title>REGISTRATION FORM</title>
+
+    <style>
+        body {
+            background-color: #f2f6ff;
+        }
+        
+        form {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: white;
+        }
+        
+        #holders {
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+            padding: 10px;
+        }
+        
+        #icon {
+            background-color: #f2f6ff;
+            text-align: center;
+        }
+        
+        .s-icons {
+            width: 50px;
+            height: 50px;
+            padding: 18px;
+            text-align: center;
+        }
+        
+        #register {
+            padding-top: 10px;
+            padding-left: 46%;
+            padding-right: 46%;
+        }
+        
+        .i-container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color:#f2f6ff">
+    <form>
+        <center>
+            <h1>Register</h1>
+        </center>
+        <div id="icon">
+            <img class="s-icons" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Google-128.png" alt="a" />
+            <img class="s-icons" src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-128.png" alt="b" />
+            <img class="s-icons" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png" alt="c" />
+            <img class="s-icons" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" alt="d" />
+        </div>
+        <div class="i-container">
+            <input id="holders" type="text" maxlength="20" placeholder="Full Name" name="username"><br>
+            <input id="holders" type="email" placeholder="Email" name="email"><br>
+            <input id="holders" type="password" placeholder="Password" maxlength="8" name="password"><br>
+            <input id="holders" type="password" placeholder="Confirm Password " maxlength="8" name="password"><br>
+        </div>
+        <div id="register">
+            <input type="button" style="background-color: lightskyblue;" value="Register">
+        </div>
+    </form>
+</body>
+
+</html>
